@@ -41,7 +41,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #7bc3d1;
+	color: #5098e8;
 }
 ul, ol {
 	list-style: none;
@@ -73,7 +73,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #7bc3d1;
+	background: #5098e8;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -119,13 +119,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #7bc3d1;
+	color: #5098e8;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #7bc3d1;
+	color: #5098e8;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -159,8 +159,8 @@ hr {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #7bc3d1;
-	border-color: #7bc3d1;
+	background-color: #5098e8;
+	border-color: #5098e8;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -173,7 +173,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background-color: #7bc3d1;
+	background-color: #5098e8;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -203,7 +203,7 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: #5098e8;
 }
 #skills h2 {
 	color: #fff;
@@ -269,7 +269,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #7bc3d1;
+	background: #5098e8;
 	color: #fff;
 	padding: 6px 14px;
 }
@@ -381,7 +381,7 @@ ol.type li a:hover {
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: #5098e8;
 }
 #achievements h2 {
 	color: #fff;
@@ -511,7 +511,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #7bc3d1;
+	background: #5098e8;
 }
 #contact h2 {
 	color: #fff;
@@ -628,7 +628,26 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #a0a5a5;
 }
 #footer a:hover {
-	color: #7bc3d1;
+	color: #5098e8;
+}
+/* Social Icons */
+#contact .social i.fa-facebook:hover {
+	color:#3b5998;
+}
+#contact .social i.fa-twitter:hover {
+	color:#00aced;	
+}
+#contact .social i.fa-linkedin:hover {
+	color:#007bb6;
+}
+#contact .social i.fa-github:hover {
+	color:#000000;
+}
+#contact .social i.fa-skype:hover {
+	color:#12a5f4;
+}
+#contact .social i.fa-envelope-o:hover {
+	color:#dd4b39;
 }
 /* Loader CSS */
 .ajax-loader {  
